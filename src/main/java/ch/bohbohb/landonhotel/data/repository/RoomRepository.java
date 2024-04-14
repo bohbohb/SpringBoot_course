@@ -7,5 +7,6 @@ import java.util.Optional;
 
 public interface RoomRepository extends JpaRepository<Room, Long> {
     Optional<Room> findRoomByRoomNumberIgnoreCase(String roomNumber);
+
 }
 
