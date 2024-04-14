@@ -2,8 +2,10 @@ package ch.bohbohb.landonhotel.data.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
 
 @Data
+@Getter
 @Table(name="guests")
 @Entity
 public class Guest {
